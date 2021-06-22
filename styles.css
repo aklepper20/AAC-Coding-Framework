@@ -1,0 +1,40 @@
+img {
+  max-width: 100%;
+}
+
+h4 {
+  background: #404040;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.code-base {
+  background-image: url("img/AAC_framework.png");
+  max-width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.framework-container {
+  margin-top: 50px;
+  max-width: 100%;
+  width: 750px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.variables-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.functions-declare {
+  display: flex;
+  justify-content: space-around;
+}
