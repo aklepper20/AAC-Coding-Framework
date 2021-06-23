@@ -55,11 +55,19 @@ h4 {
   font-size: 15rem;
 }
 
-.eyetrack-toggle {
-  background-color: cornflowerblue;
+button {
+  background-color: #bb86fc;
+  border: none;
+  border-radius: 5rem;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.off {
+  background-color: #bb86fc;
 }
 
 .active {
-  background-color: darkgoldenrod;
+  background-color: #3700b3;
   color: white;
 }
