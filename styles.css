@@ -42,3 +42,15 @@ h4 {
 .keyboard-container {
   margin-right: 30px;
 }
+
+.arrow-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  margin-top: 15px;
+  color: whitesmoke;
+  font-size: 15rem;
+}
