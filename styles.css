@@ -54,3 +54,12 @@ h4 {
   color: whitesmoke;
   font-size: 15rem;
 }
+
+.eyetrack-toggle {
+  background-color: cornflowerblue;
+}
+
+.active {
+  background-color: darkgoldenrod;
+  color: white;
+}

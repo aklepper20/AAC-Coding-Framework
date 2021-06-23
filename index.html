@@ -36,6 +36,17 @@
     <div class="arrow-controls">
       <i class="fas fa-arrows-alt" title="Keyboard arrows"></i>
     </div>
+    <div class="eyetrack-container">
+      <button class="eyetrack-toggle"
+              onclick='buttonChange()'>
+        <h3>Toggle Eye-Track Cursor</h3>
+      </button>
+    </div>
   </div>
+  <script>
+    function buttonChange() {
+      document.querySelector('.eyetrack-toggle').classList.toggle('active');
+    }
+  </script>
 </body>
 </html>
