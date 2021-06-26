@@ -69,7 +69,7 @@ button:hover {
   background-color: #3700b3;
 }
 
-.btn {
+.off-btn {
    margin-bottom: 12px;
    border: 2px solid black;
 }
@@ -79,25 +79,25 @@ button:hover {
   color: white;
 }
 
-.eyetrack-container {
+.delete-mode-container {
   width: 70%;
   text-align: center;
   padding-bottom: 10px;
   border-radius: .4rem;
 }
 
-.eyetrack-flex {
+.delete-mode-flex {
   background-color: #404040;
   height: fit-content;
   margin-top: 12px;
 }
 
-.danger {
+.danger-btn {
   color: white;
   border: 2px solid black;
 }
 
-.danger:hover {
+.danger-btn:hover {
   background-color: red;
   color: white;
 }
