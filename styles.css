@@ -33,7 +33,6 @@ h4 {
 }
 
 .functions-container {
-  margin-bottom: 12px;
   margin: 8px;
   border: 1px solid #404040;
 }
@@ -45,10 +44,6 @@ h4 {
 .function-card {
   background-color: #404040;
   margin: 10px;
-}
-
-.keyboard-container {
-  margin-right: 30px;
 }
 
 .fas {
@@ -81,9 +76,7 @@ button:hover {
 
 .delete-mode-container {
   width: 70%;
-  text-align: center;
   padding-bottom: 10px;
-  border-radius: .4rem;
 }
 
 .delete-mode-flex {
