@@ -10,31 +10,32 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="flexbox.css">
   <title>AAC Coding Framework</title>
 </head>
 <body>
-  <div class="code-base">
+  <div class="code-base display-flex-end">
     <span alt="Javascript cod in visual studio code"></span>
-    <div class="framework-container">
-      <div class="variables-container">
+    <div class="framework-container display-middle flex-column">
+      <div class="variables-container display-space-around">
       <div><button>CONST</button></div>
       <div><button>LET</button></div>
       <div><button>VAR</button></div>
     </div>
-    <div class="functions-declare">
-      <div class="function">
+    <div class="functions-container">
+      <div class="function-card display-space-around">
         <div><button>function( ) {}</button></div>
         <div><button>const = ( ) => {}</button></div>
         <div><button>if () {}</button></div>
         <div><button>else {}</button></div>
       </div>
-      <div class="function">
+      <div class="function-card display-space-around">
         <div><button>( )</button></div>
         <div><button>{ }</button></div>
         <div><button>[ ]</button></div>
       </div>
-      <div class="function">
+      <div class="function-card display-space-around">
         <div><button>=</button></div>
         <div><button>" "</button></div>
         <div><button>' '</button></div>
@@ -44,7 +45,7 @@
         <div><button>:</button></div>
         <div><button>;</button></div>
       </div>
-      <div class="function">
+      <div class="function-card display-space-around">
         <div><button>!</button></div>
         <div><button>||</button></div>
         <div><button>&&</button></div>
@@ -53,13 +54,13 @@
       <div class="keyboard-container">
         <img src="img/ms.png" alt="Full Keyboard in dark mode"/>
       </div>
-      <div class="eyetrack-container">
-        <div class="eyetrack-flex">
+      <div class="eyetrack-container display-space-between">
+        <div class="eyetrack-flex flex-column display-flex">
           <h4 class="tracker-text">Delete Cursor Mode</h4>
           <button class="btn">OFF</button>
           <button class="danger">DELETE</button>
         </div>
-        <div class="arrow-controls">
+        <div class="arrow-controls display-middle">
           <i class="fas fa-arrows-alt" title="Keyboard arrows"></i>
         </div>
       </div>
